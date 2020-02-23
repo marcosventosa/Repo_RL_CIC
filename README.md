@@ -10,19 +10,11 @@ https://www.microsoft.com/en-us/download/details.aspx?id=100305
 
 -----------------------------
 ##Ordenacion del GitHub
-- baselines
-- conda
-- gym entero
-- matlab
-- Robotstudio
-  - CR_sockets
-  - CR_file
-  - Rapid_sockets
-  - Rapid_file
-  
-- Policies
-- Resultados
-- Informes
+- baselines (Algoritmos de OPENAI)
+- gym (Entornos de gym con los de Robotstudio añadidos)
+- Policies (Policies entrenadas para el Robot ABB 120)
+- RobotstudioEnvs (Entornos que hablan con robotstudio. Estan ya metidos en gym)
+-requierements.txt (Librerias necesarias para ejecutar los entornos de Robotstudio "pip install -r requirements.txt)
   
 
 
