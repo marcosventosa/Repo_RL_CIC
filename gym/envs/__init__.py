@@ -99,14 +99,14 @@ register(
 
 register(
     id='RobotStudio-v0',
-    entry_point='gym.envs.classic_control:RobotStudio',
+    entry_point='gym.envs.classic_control:RobotStudio_moverse',
     reward_threshold=-50.0,
     max_episode_steps=50,
 )
 
 register(
     id='Environment3D_esquiva-v0',
-    entry_point='gym.envs.classic_control:Environment3D_esquiva',
+    entry_point='gym.envs.classic_control:RobotStudio_moverse_esquivar',
     reward_threshold=-50.0,
     max_episode_steps=50,
 )
